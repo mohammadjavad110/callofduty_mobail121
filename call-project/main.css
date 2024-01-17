@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: ltr;
+}
+
+body {
+  font-family: sahel, Tahoma;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #363636;
+}
+
+@font-face {
+  font-family: sahel;
+  src: url("../assets/sahel.ttf");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.input-box {
+  display: flex;
+  gap: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #999;
+  background: #eee;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid rgb(55, 133, 55);
+  background: rgb(63, 172, 63);
+  font-size: 1.1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  text-align: center;
+}
+
+img {
+  width: 30px;
+  margin-right: 0.8rem;
+}
+
+.waiting-text {
+  direction: rtl;
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
